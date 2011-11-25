@@ -1,0 +1,50 @@
+---
+title: "Wes Anderson Recycling Program"
+summary: "We take a list of actors, a list of Wes Anderson films, and plot them two-dimensionally."
+---
+
+
+<!DOCTYPE html> 
+<html lang="en"> 
+    <head> 
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+        <title>The Wes Anderson Recycling Program</title> 
+        
+        <link rel="stylesheet" href="/stylesheets/recycle.css" type="text/css" media="screen">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="/javascript/paper.js" type="text/javascript" charset="utf-8"></script>
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.1.7/underscore-min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="/javascript/recycle_data.json" type="text/javascript" charset="utf-8"></script>
+        
+        <script type="text/paperscript" canvas="canvas" src="/javascript/recycle.js"></script>
+        
+        <script type="text/javascript">
+            jQuery(document).ready(function() {
+                if (!!document.createElement('canvas').getContext) {
+                    $('#nocanvas').hide();
+                }
+            });
+        </script>
+        
+        <script type="text/javascript" src="http://use.typekit.com/ran8aft.js"></script>
+        <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+            </head> 
+    <body>
+        <a href="http://github.com/hjhart/wes_anderson_recycling" id="forkme"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub" /></a>
+  
+        <h1>The Wes Anderson Recycling Program</h1>
+        
+        <p>
+            Actors who have appeared in more than one Wes Anderson movie. For example, try clicking on both <a href="#" id="natlieportman">Darjeeling Limited and Hotel Chevalier.</a>.
+        </p>
+        
+        <div id="mainText">
+            <p id="nocanvas">
+                This page requires HTML5 canvas and JavaScript.
+            </p>
+            
+            <canvas id="canvas" width="1000"></canvas>
+
+        </div>
+    </body>
+</html>
