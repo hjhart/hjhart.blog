@@ -12,13 +12,13 @@ I'm writing this down so I don't forget it. `-r` forces 24 frames per second.
 
 Which will produce something like this
 
-<iframe src="//player.vimeo.com/video/85014164" width="600px" height="400px" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen="true"></iframe>
+<iframe src="//player.vimeo.com/video/85014164" width="600px" height="400px" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen="true"> </iframe>
 
 
 Or this!
 
 
-<iframe src="//player.vimeo.com/video/31471869" width="600px" height="400px" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen="true"></iframe>
+<iframe src="//player.vimeo.com/video/31471869" width="600px" height="400px" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen="true"> </iframe>
 
 
 
