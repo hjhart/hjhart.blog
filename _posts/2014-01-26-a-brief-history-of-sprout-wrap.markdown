@@ -6,13 +6,13 @@ summary: "Where we explore using the sprout-wrap tool to set up and converge a c
 
 When Wanelo gets a brand new workstation the first thing we install on it is Sprout. Sprout is a collection of OSX specific recipes that allow you to install common utilities and applications that every ruby developer has and will appreciate.
 
-Anyone who has worked at Pivotal Labs would feel comfortable with the workstations that spawn from `sprout-wrap`, because they've probably worked on one before. Sprout is based on [chef-soloist](https://github.com/mkocher/soloist) that allows a developer to run a set of chef recipes from their local machine. Recipes have been built for applications like chrome, rubymine, and iterm. Other common OSX settings — ones that have to be changed on *every* new workstation — can be switched, including turning SSH on, changing the default keyboard repeat rate, installing sane git aliases, rbenv, and bash completion.
+Anyone who has worked at Pivotal Labs would feel comfortable with the workstations that spawn from `sprout-wrap`, because they've probably worked on one before. Sprout is based on [chef-soloist](https://github.com/mkocher/soloist) that allows a developer to run a set of chef recipes from their local machine. Recipes have been built for applications like Chrome, RubyMine, and iTerm. Other common OSX settings — ones that are changed on *every* new workstation — can be switched, including turning SSH on, changing the default keyboard repeat rate, installing sane git aliases, rbenv, and bash completion.
 
-You can automatically clone git repositories into your `~/workspace` directory. You can install postgres, imagemagick, node, dropbox, phantomjs, gitx, caffeine, and heroku toolbelt. If you've used found a utility useful in a development setting, or flipped a switch somewhere in System Preferences, a recipe probably exists in one of sprout's cookbooks.
+You can automatically clone git repositories into your `~/workspace` directory. You can install postgres, imagemagick, node, dropbox, phantomjs, gitx, caffeine, and heroku toolbelt. If you've used found a utility useful in a development setting, or flipped a switch somewhere in System Preferences, a recipe probably exists in one of sprout's cookbooks. 
 
 ## So who is this useful for?
 
-We have grown considerably in the last six months I've been there. We've hired four new people. That's two pairing stations that two pairs would normally have to set up. We took the time to set up a `soloistrc` file – the file where you specify which recipes to run. 
+We at Wanelo have grown considerably in the last six months I've been there. We've hired four new people. That's two pairing stations that two pairs would normally have to set up. Instead, we took the time to set up a `soloistrc` file – the file where you specify which recipes to run. 
 
 Here's a snippet from a standard `soloistrc` file:
 
@@ -44,9 +44,7 @@ At Wanelo we wrote a recipe that runs `bundle install` and sets up our developme
 
 Sprout-wrap has the benefit of following chef's principals and requires recipes to be idempotent. So when a developer includes the recipes that, for instance, installs `cowsay`, going forward each workstation will now have cowsay. Which means every developer is happy to work on any workstation. Because, hey, now you have cowsay on every workstation. 
 
-     ________
     < Moo. >
-     --------
             \   ^__^
              \  (oo)\_______
                 (__)\       )\/\
