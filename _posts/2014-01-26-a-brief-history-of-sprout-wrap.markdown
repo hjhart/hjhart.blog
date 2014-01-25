@@ -1,4 +1,8 @@
-# A Brief History of Sprout Wrap
+---
+layout: post
+title: "A Brief History of Sprout Wrap"
+summary: "Where we explore using the `sprout-wrap` tool to set up and converge a cluster of developer workstations"
+---
 
 When Wanelo gets a brand new workstation the first thing we install on it is Sprout. Sprout is a collection of OSX specific recipes that allow you to install common utilities and applications that every ruby developer has and will appreciate.
 
