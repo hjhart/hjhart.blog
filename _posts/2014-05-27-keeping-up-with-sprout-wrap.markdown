@@ -21,7 +21,8 @@ cookbook 'sprout-base',
 cookbook 'sprout-osx-base',
   :git => 'git://github.com/pivotal-sprout/sprout-base.git'
 ```
-Adding `sprout-base` and `sprout-osx-base` to your `Cheffile` will allow for your cookbooks to be backwards compatible. If old cookbooks reference `sprout-osx-base`, their dependencies will resolve properly. Simiarly, when new cookbooks reference `sprout-base` they will resolve to those same recipes. We'll remove the `sprout-osx-base` cookbook at the end.
+
+Adding `sprout-base` and `sprout-osx-base` to your `Cheffile` will allow for your cookbooks to be backwards compatible. If old cookbooks reference `sprout-osx-base`, their dependencies will resolve properly. Similarly, when new cookbooks reference `sprout-base` they will resolve to those same recipes. We'll remove the `sprout-osx-base` cookbook at the end.
 
 Try running a `librarian-chef install`. If the cookbooks have been extracted to separate git repositories already you'll see an error message like this:
 
