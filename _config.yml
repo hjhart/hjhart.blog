@@ -4,3 +4,4 @@ destination: _site
 lsi: false
 pygments: true
 server: true
+markdown: kramdown
