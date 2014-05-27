@@ -4,8 +4,6 @@ title: "Keeping up with Sprout-Wrap"
 summary: "Sprout-wrap has been a moving target lately, and has undergone some recent growing pains."
 ---
 
-# Keeping up with Sprout-Wrap
-
 Keeping your sprout-wrap recipes and cookbooks up to date is a good thing to do! It keeps your software secure (because bugs like Heartbleed happen), and it allows your developers to enjoy improving their workstation workflow and processes with the most recent software and tools.
 
 Sprout-wrap has been a moving target lately, and has undergone some recent growing pains. Many cookbooks have moved, and as a result your old recipes and cookbooks will grow stale unless you change your `Cheffile` and `soloistrc` file to point to the newest cookbooks and recipes. The good news is, this should be a one time "upgrade." After pointing towards the newest cookbooks a simple `librarian-chef update` will suffice for keeping up to date. This blog post will hold your hand while you perform this one-time upgrade, as I found it to be a bit tricky!
