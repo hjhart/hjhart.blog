@@ -28,7 +28,7 @@ $ pkgin list | grep zlib
 zlib-1.2.8nb1        General purpose data compression library
 ```
 
-And then investigated where it was installed with `pgin pkg-build-defs zlib` :
+And then investigated where it was installed with `pkgin pkg-build-defs zlib` :
 
 ```
 CFLAGS=-O2    -I/opt/local/include -I/usr/include -pipe -O2
