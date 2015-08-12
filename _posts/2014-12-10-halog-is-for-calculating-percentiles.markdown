@@ -4,8 +4,6 @@ title: "HALog is for calculating percentiles"
 summary: "Herein lies some debugging with some issues using HALog, where no lines were being parsed."
 ---
 
-## HALog is for calculating percentiles
-
 So, I had some issues parsing my halog files
 
 ```bash
