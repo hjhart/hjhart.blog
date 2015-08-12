@@ -2,5 +2,8 @@ safe: true
 source: .
 destination: _site
 lsi: false
-pygments: true
-markdown: redcarpet
+markdown: Kramdown
+kramdown:
+  input: GFM
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+highlighter: rouge

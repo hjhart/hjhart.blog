@@ -1,31 +1,13 @@
+
 <!DOCTYPE html>
 <html lang="en-US" xml:lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
-	<head>
-		<title>{{page.title}}</title>
-		<link href="/stylesheets/screen.css" media="screen" rel="stylesheet" type="text/css">
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, minimum-scale=0.6, maximum-scale=1.0" />
-		<script>
-		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-		  ga('create', 'UA-54136415-1', 'auto');
-		  ga('send', 'pageview');
-
-		</script>
-	</head>
-	<body>
-		<header>
-			<h1><a href="/" title="back to the home land.">hjhart.github.com</a></h1>
-			<p id="tagline">Notes on programming in Seattle with JavaScript and Ruby</p>
-		</header>
-		<section id="contents">
-		{{content}}
-		</section>
-		<footer>
-			<p>This is a <a href="http://www.hjhart.com" title="Some website.">hjhart</a> webbysite. <a href="http://github.com/hjhart/hjhart.github.com/" title="The source code for this site.">Source code</a> (forked from <a href="http://github.com/waferbaby/usesthis/" title="The source code for this site.">waferbaby</a>).
-	  	</footer>
-	</body>
+{% include head.html %}
+<body>
+{% include header.html %}
+<article>
+    {{ content }}
+</article>
+{% include print-footer.html %}
+{% include footer.html %}
+</body>
 </html>

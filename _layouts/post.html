@@ -1,10 +1,9 @@
 ---
 layout: default
 ---
-<article class="overview">
-	{% if page.credits %}<p class="credits">Credits: {% if page.credits.url %}<a href="{{page.credits.url}}" title="{{page.title}} by {{page.credits.name}}.">{{page.credits.name}}</a>{% else %}{{page.credits.name}}{% endif %}</p>{% endif %}
-	<time datetime="{{page.date | date: "%Y-%m-%d"}}">{{page.date | date: "%B %d, %Y"}}</time>
-</article> 
-<article class="contents">
-	{{content}}
-</article>
+<h1>{{ page.title }}</h1>
+<p>{{ page.date | date: "%B %-d, %Y" }}</p>
+
+
+{{ content }}
+
