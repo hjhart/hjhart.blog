@@ -7,3 +7,6 @@ layout: default
 
 {{ content }}
 
+{% if page.comments %}
+    {% include comments.html %}
+{% endif %}

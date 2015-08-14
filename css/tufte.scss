@@ -538,5 +538,19 @@ span.newthought {
   content: "\e60e";
 }
 
+#disqus_thread {
+  width: 55%;
+}
+
+@media screen and (max-width: 600px){
+  #disqus_thread {
+    width: 65%;
+  }
+}
+@media screen and (max-width: 400px){
+  #disqus_thread {
+    width: 90%;
+  }
+}
 
 /*-- End of Icomoon icon font section --*/            
