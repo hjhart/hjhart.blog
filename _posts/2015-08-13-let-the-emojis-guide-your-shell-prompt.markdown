@@ -2,6 +2,8 @@
 title: "Let the emojis guide your shell prompt"
 layout: post
 date: 2015-08-13 23:50:23 PDT
+summary: "Shell prompts can be useful if they are configured properly (and let's have some fun while we're at it)."
+
 ---
 <span class='newthought'>Okay, so you're wondering what</span> the hell I'm talking about. Fair enough.
 
