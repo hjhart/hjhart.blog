@@ -2,6 +2,7 @@
 layout: post
 title: "Compiling PHP on SmartOS"
 summary: "Compiling PHP on SmartOS is a pain in the neck. Here's how I did it."
+comments: true
 ---
 
 Recently I was trying to compile PHP 5.5.13 from source on SmartOS. While running `./configure --prefix=/opt/local/php --enable-cli --enable-zip --enable-cgi` I ran into this error: 

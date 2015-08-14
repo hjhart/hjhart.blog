@@ -2,6 +2,7 @@
 layout: post
 title: "Rollback commits in WPEngine"
 summary: "Rolling back to a specific commit using the Git Push feature for WPEngine"
+comments: true
 ---
 
 To push an arbitrary git commit from your git repository to WPEngine, you can issue this simple command:

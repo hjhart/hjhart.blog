@@ -2,6 +2,8 @@
 layout: post
 title: "I spilled water on my MacBook Pro. What do I do?"
 summary: "Without a good backup strategy, spilling water on your Macbook can be devastating. Let's try to recover that laptop, or at least your data."
+comments: true
+
 ---
 
 Okay, so you spilled water on your MacBook pro. Probably through your keyboard. Well, unfortunately, you're in a bad place. You may have just lost your computer, and it probably won't be covered by Apple. But hopefully we can recover your data. Let's get started!

@@ -74,6 +74,7 @@ task :create_post, [:date, :title, :category, :content] do |t, args|
       f.puts "layout: post"
       f.puts yaml_cat if yaml_cat != nil
       f.puts "date: #{post_date}"
+      f.puts "comments: true"
       f.puts "---"
       f.puts args.content if args.content != nil
     end  
