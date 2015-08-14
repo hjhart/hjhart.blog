@@ -6,4 +6,4 @@ markdown: Kramdown
 kramdown:
   input: GFM
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-highlighter: rouge
+highlighter: pygments
