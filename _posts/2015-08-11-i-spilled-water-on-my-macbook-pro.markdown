@@ -35,7 +35,7 @@ Once you've extracted your hard drive, you'll want to figure out where to put th
 If you're just trying to recover a certain set of file, plug the USB drive into any working computer. You should be able to browse the files exactly as you would've if you were browsing them in the Finder.
 
 [liquid_damage]: http://osxdaily.com/2014/04/13/water-contact-macbook-prevent-liquid-damage/
-[sata_drive]: http://www.amazon.com/StarTech-com-SATA-Drive-Adapter-Cable/dp/B00HJZJI84/ref=sr_1_1?&s=electronics&ie=UTF8&qid=1439277492&sr=1-1&keywords=sata+to+usb  "SATA Drive to USB Cable"
+[sata_drive]: http://www.amazon.com/gp/product/B00HJZJI84/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00HJZJI84&linkCode=as2&tag=hjhartblog-20&linkId=ZORHC6JL2Y5GF5IV "SATA Drive to USB Cable"
 [early_2011]: https://www.ifixit.com/Guide/MacBook+Pro+13-Inch+Unibody+Early+2011+Hard+Drive+Replacement/5119
 [mid_2012]: https://www.ifixit.com/Guide/MacBook+Pro+13-Inch+Unibody+Mid+2012+Hard+Drive+Replacement/10378
 [mid_2014]: https://www.ifixit.com/Guide/MacBook+Pro+13-Inch+Retina+Display+Mid+2014+SSD+Replacement/27849
