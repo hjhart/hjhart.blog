@@ -1,4 +1,3 @@
-safe: true
 source: .
 destination: _site
 lsi: false
@@ -7,3 +6,5 @@ kramdown:
   input: GFM
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 highlighter: pygments
+gems:
+  - jekyll-sitemap
