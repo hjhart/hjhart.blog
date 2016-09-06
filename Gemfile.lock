@@ -71,6 +71,7 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll
+  jekyll-gist
   jekyll-sitemap
   rake
   rouge

@@ -8,3 +8,4 @@ markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 highlighter: pygments
 gems:
   - jekyll-sitemap
+  - jekyll-gist
