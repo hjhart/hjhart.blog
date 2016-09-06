@@ -228,12 +228,12 @@ p, article  ul li, pre code, pre code p, code{
 }
 
 @media screen and (max-width: 600px){
-    p{
+    p {
       width: 65%;
     }
 }     
 @media screen and (max-width: 400px){
-    p{
+    p {
       width: 90%;
     }
 }
@@ -560,3 +560,13 @@ span.newthought {
   width: 55%;
 }
 
+@media screen and (max-width: 600px){
+  .gist .gist-file {
+    width: 65%;
+  }
+}
+@media screen and (max-width: 400px){
+  .gist .gist-file {
+    width: 90%;
+  }
+}
