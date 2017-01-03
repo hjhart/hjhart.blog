@@ -15,13 +15,13 @@ Let's take a look at some screenshots:
 
 <img src="/images/ticket_master/sub_total.png" alt="Sub Total"/>
 
-Okay, here is the subtotal. That's not so bad, less than I expected... but still: a **$1.50** facility charge? You're not the facility. Surely I wouldn't be charged this facility charge if I went directly to Neptune Theatre and purchased tickets – and they're the facility. So what the fuck?
+Okay, here is the subtotal. That's not so bad, less than I expected... <s>but still: a $1.50 facility charge? You're not the facility. Surely I wouldn't be charged this facility charge if I went directly to Neptune Theatre and purchased tickets – and they're the facility. So what the fuck?</s>[^1]
 
 Alright then, that's not so bad. I'll just select my shipping and move on.
 
 <img src="/images/ticket_master/total_charges.png" alt="Total Charges"/>
 
-Oh! Another **$4.00** that is unavoidable. For processing! Right, because credit cards are so prohibitively expensive to process that we need to charge you another **$4.00**. And another **$2.50** if I want physical tickets.
+Oh! Another **$4.00** that is unavoidable. For processing! Right, because credit cards are so prohibitively expensive to process that we need to charge you another **$4.00**. And another **$2.25** if I want physical tickets.
 
 Both of those things I would get for free if I purchased them at the box office. And it wouldn't take me 10-14 days to get the tickets in hand, they'd print them right there for me.
 
@@ -51,3 +51,6 @@ So that's it, then. I'm done with ticketmaster. I'm going to go hop on my scoote
 Okay, okay, enough already! Enough negativity for the day.
 
 Hope you all have a good new year. :)
+
+[^1]: After going and purchasing tickets directly from the venue, they were $20.00, including the $1.50 facility fee. I stand corrected.
+
