@@ -48,9 +48,10 @@ So Ticketmaster not only deceptively hides the number **$7.99**, but when the us
 
 So that's it, then. I'm done with ticketmaster. I'm going to go hop on my scooter and drive 15 minutes out of my way to the theatre's box office to go pick up a single ticket. Out of spite!
 
-Okay, okay, enough already! Enough negativity for the day.
+Okay, okay, enough already! Enough negativity for the day.[^2]
 
 Hope you all have a good new year. :)
 
 [^1]: After going and purchasing tickets directly from the venue, they were $20.00, including the $1.50 facility fee. I stand corrected.
 
+[^2]: This post garnered quite a bit of discussion on Hacker News. See the discussion [here](https://news.ycombinator.com/item?id=13312629).
