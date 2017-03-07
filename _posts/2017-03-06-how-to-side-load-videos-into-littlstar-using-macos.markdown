@@ -49,6 +49,9 @@ You can now drag files with the [appropriate naming conventions][naming_conventi
 
 Good job! Now go enjoy your PSVR.
 
+**Edit:** User /u/hellsfoxes on reddit [pointed out not to load the files][hells_foxes_comment] that look like `._filename_sbs_180.mp4`. Instead, load files that look like `filename_sbs_180.mp4` (note the leading period and underscore). Loading the first style of files will make the app go into an indefinite loading screen.
+
+[hells_foxes_comment]: https://www.reddit.com/r/PSVR/comments/5y1fr0/how_to_side_load_videos_into_littlstar_using_macos/demzpw0/?context=3
 [usb_stick]: https://www.amazon.com/gp/product/B013CCTOC2/ref=as_li_ss_tl?ie=UTF8&psc=1&linkCode=ll1&tag=hjhartblog-20&linkId=5d919eca9cadfe6414cb007a3aa11d66
 [naming_conventions]: http://docs.littlstar.com/display/CG/PlayStation+VR+Video+Sideloading#PlayStationVRVideoSideloading-HarddriveorUSBflashdrivesetup
 
