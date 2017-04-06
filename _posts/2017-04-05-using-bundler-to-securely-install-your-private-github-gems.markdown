@@ -3,6 +3,7 @@ title: "Using Bundler to Securely Install Your Private Github Gems"
 layout: post
 date: 2017-04-05 12:56:06 PDT
 comments: true
+summary: "We needed to figure out a way to download our private gems from github securely. Here's how we did it."
 ---
 
 Do you see this message all the time when you run `bundle install`?
@@ -11,7 +12,7 @@ Do you see this message all the time when you run `bundle install`?
 
 It's true. The git protocol is not fully secure, meaning that the server that you are pulling code from is not verified by certificate authorities. Seems a bit scary!
 
-Now, when converting, most of you gems in your `Gemfile` will be fine converting from git protocol to https. However, it is the private repositories that you'll need to authenticate.
+Now, when converting, most of your gems in your `Gemfile` will be fine converting from git protocol to https. However, it is the private repositories that you'll need to authenticate.
 
 In order to switch to the HTTPS protocol, for these private gems from github, you'll need to figure out how you're going to authenticate when deploying, shipping to CI, or setting up a new workstation.
 
