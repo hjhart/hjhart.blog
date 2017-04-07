@@ -54,7 +54,7 @@ Now, running a `bundle install` will authenticate using those credentials specif
 
 ## A Quick Side Note
 
-For gems that are defined like this: `gem 'private_repo', github: 'hjhart/private_repo'`, bundler 2.0 will default to using HTTPS. For now, You can also issue a `bundle config github.https true` to allow this convenient notation to use HTTPS. See this [github issue][github_issue] for more details.
+For gems that are defined like this: `gem 'private_repo', github: 'hjhart/private_repo'`, bundler 2.0 will default to using HTTPS. For now, you can also issue a `bundle config github.https true` to allow this convenient notation to use HTTPS. See this [github issue][github_issue] for more details.
 
 ## Generate Your Token
 
