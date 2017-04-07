@@ -38,7 +38,19 @@ Inside your Gemfile, you'll want to replace lines that use `git: 'git@github.com
 
 {% gist hjhart/c1fb019a2ef3320f690e1076cabdb44e Gemfile %}
 
-Now we just need to generate a token and place it in your shell environment for it to work.
+## Bundle Config
+
+Now we just need to instruct bundler where the find the credentials. We can do that by issuing a bundle config command.
+
+{% gist hjhart/c1fb019a2ef3320f690e1076cabdb44e bundle_config %}
+
+This creates an environment variable in your `~/.bundle/config` file, which will exist every time you run a `bundle` command.
+
+{% gist hjhart/c1fb019a2ef3320f690e1076cabdb44e ~.bundle_config %}
+
+Now, running a `bundle install` will authenticate using those credentials specified. For CI environments, or deployment environments, you can also just specify the environment variable when issuing bundle commands, but I find it more consistent to place the authentication token inside of the `bundle config`
+
+{% gist hjhart/c1fb019a2ef3320f690e1076cabdb44e bundle_install.sh %}
 
 ## A Quick Side Note
 
@@ -54,7 +66,7 @@ After being prompted for your password, a response will be returned like this:
 
 {% gist hjhart/c1fb019a2ef3320f690e1076cabdb44e curl_response.json %}
 
-Take that token, and hydrate your environment however you normally would on your workstations, on your CI environment, and your deploy environment. I won't cover that here, because it's been [done][env_vars_example_one] [many][env_vars_example_two] [times][env_vars_example_three] before.
+Use the generated token as described in the Bundle Config section of this blog post for your workstations, your CI environment, and any app servers you deploy to.
 
 Now, when you run a `bundle install` your gems will be downloaded in a secure manner, and you won't get any more warnings from bundler! Happy bundling!
 
@@ -67,6 +79,3 @@ However, if all gems are recent (which they most likely will, as these are your 
 [github_announcement]: https://github.com/blog/1270-easier-builds-and-deployments-using-git-over-https-and-oauth
 [thoughtbot_gist]: https://gist.github.com/masonforest/4048732
 [github_issue]: https://github.com/bundler/bundler/issues/4978
-[env_vars_example_one]: http://askubuntu.com/questions/58814/how-do-i-add-environment-variables/58828#58828
-[env_vars_example_two]: https://circleci.com/docs/1.0/environment-variables/
-[env_vars_example_three]: https://docs.travis-ci.com/user/environment-variables/
