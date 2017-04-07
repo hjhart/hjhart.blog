@@ -70,6 +70,8 @@ Use the generated token as described in the Bundle Config section of this blog p
 
 Now, when you run a `bundle install` your gems will be downloaded in a secure manner, and you won't get any more warnings from bundler! Happy bundling!
 
+You can see all of your active tokens on [github here][github_oauth_tokens].
+
 ## Caveat Emptor
 
 When changing from the git protocol to the HTTPS protocol, bundler loses "track" of which version or git SHA the gem will be locked to. It sometimes will help to grab the git reference from the Gemfile.lock, and placing it into the `Gemfile` while making the switch. That way, the gems code will not unexpectedly change!
@@ -79,3 +81,4 @@ However, if all gems are recent (which they most likely will, as these are your 
 [github_announcement]: https://github.com/blog/1270-easier-builds-and-deployments-using-git-over-https-and-oauth
 [thoughtbot_gist]: https://gist.github.com/masonforest/4048732
 [github_issue]: https://github.com/bundler/bundler/issues/4978
+[github_oauth_tokens]: https://github.com/settings/tokens
