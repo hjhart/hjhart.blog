@@ -5,7 +5,7 @@ markdown: Kramdown
 kramdown:
   input: GFM
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-highlighter: pygments
+highlighter: rouge
 theme: soffes-blog-jekyll
 description: > # this means to ignore newlines until "full_name:"
     This is my blog. Enjoy.
