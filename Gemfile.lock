@@ -1,3 +1,12 @@
+GIT
+  remote: git://github.com/hjhart/soffes-blog-jekyll.git
+  revision: ac6b9e4cc6713b8f6eb83072cfc03561745fcb5d
+  branch: master
+  specs:
+    soffes-blog-jekyll (0.2.0)
+      jekyll (~> 3.5)
+      jekyll-seo-tag (~> 2.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -54,9 +63,6 @@ GEM
     sawyer (0.8.1)
       addressable (>= 2.3.5, < 2.6)
       faraday (~> 0.8, < 1.0)
-    soffes-blog-jekyll (0.2.0)
-      jekyll (~> 3.5)
-      jekyll-seo-tag (~> 2.1)
 
 PLATFORMS
   ruby
@@ -67,7 +73,7 @@ DEPENDENCIES
   jekyll-sitemap
   rake
   rouge
-  soffes-blog-jekyll
+  soffes-blog-jekyll!
 
 BUNDLED WITH
    1.12.5
