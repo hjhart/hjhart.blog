@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "HALog is for calculating percentiles"
-summary: "Herein lies some debugging with some issues using HALog, where no lines were being parsed."
+excerpt: "Herein lies some debugging with some issues using HALog, where no lines were being parsed."
 comments: true
 ---
 

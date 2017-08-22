@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Compiling PHP on SmartOS"
-summary: "Compiling PHP on SmartOS is a pain in the neck. Here's how I did it."
+excerpt: "Compiling PHP on SmartOS is a pain in the neck. Here's how I did it."
 comments: true
 ---
 

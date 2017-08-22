@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "I spilled water on my MacBook Pro. What do I do?"
-summary: "Without a good backup strategy, spilling water on your Macbook can be devastating. Let's try to recover that laptop, or at least your data."
+excerpt: "Without a good backup strategy, spilling water on your Macbook can be devastating. Let's try to recover that laptop, or at least your data."
 comments: true
 
 ---

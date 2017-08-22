@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Rollback commits in WPEngine"
-summary: "Rolling back to a specific commit using the Git Push feature for WPEngine"
+excerpt: "Rolling back to a specific commit using the Git Push feature for WPEngine"
 comments: true
 ---
 

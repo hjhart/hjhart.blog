@@ -3,7 +3,7 @@ title: "Using Bundler to Securely Install Your Private Github Gems"
 layout: post
 date: 2017-04-05 12:56:06 PDT
 comments: true
-summary: "We needed to figure out a way to download our private gems from github securely. Here's how we did it."
+excerpt: "We needed to figure out a way to download our private gems from github securely. Here's how we did it."
 ---
 
 Do you see this message all the time when you run `bundle install`?

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Busy in the City"
-summary: "Unboxing Stuff from Seattle"
+excerpt: "Unboxing Stuff from Seattle"
 ---
 
 <img style="float: right;" src="/images/unbox.gif" alt="Beautiful Drawing of a box that I did in 2010. Wow."/>

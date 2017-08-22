@@ -3,7 +3,7 @@ title: "Stop Pesky Amazon Marketplace Review Requests"
 layout: post
 category: 
 date: 2016-04-19 18:38:29 PDT
-summary: "Amazon marketplace vendors have been requesting me to give them feedback a lot lately. No. Here's how to stop it."
+excerpt: "Amazon marketplace vendors have been requesting me to give them feedback a lot lately. No. Here's how to stop it."
 comments: true
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "A Brief History of Sprout Wrap"
-summary: "Where we explore using the sprout-wrap tool to set up and converge a cluster of developer workstations"
+excerpt: "Where we explore using the sprout-wrap tool to set up and converge a cluster of developer workstations"
 comments: true
 ---
 

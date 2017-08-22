@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Timelapses and FFmpeg"
-summary: "Create timelapses with open source software"
+excerpt: "Create timelapses with open source software"
 comments: true
 ---
 

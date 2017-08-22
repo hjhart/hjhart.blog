@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Preparing to move to San Francisco"
-summary: "The official move date has been set, the rental truck reservations have been made, the lease has been signed."
+excerpt: "The official move date has been set, the rental truck reservations have been made, the lease has been signed."
 ---
 
 <img style="float: right;" src="/images/uhaul.gif" alt="Beautiful Drawing of a uhaul that I did in 2010. Wow."/>

@@ -3,7 +3,7 @@ title: "Ticketmaster is a horrible company"
 layout: post
 category:
 date: 2017-01-03 11:23:17 PST
-summary: "Ticketmaster is a horrible company, and I won't give them my business anymore."
+excerpt: "Ticketmaster is a horrible company, and I won't give them my business anymore."
 comments: true
 ---
 

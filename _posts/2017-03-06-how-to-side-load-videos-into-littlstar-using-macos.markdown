@@ -2,7 +2,7 @@
 title: "How to Side Load Videos into Littlstar using MacOS"
 layout: post
 date: 2017-03-06 23:39:29 PST
-summary: "Side loading 3D SBS videos into Littlstar media player on the PS4 can be a bit tricky. Get help here."
+excerpt: "Side loading 3D SBS videos into Littlstar media player on the PS4 can be a bit tricky. Get help here."
 comments: true
 ---
 

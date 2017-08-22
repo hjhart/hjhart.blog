@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Keeping up with Sprout-Wrap"
-summary: "Sprout-wrap has been a moving target lately, and has undergone some recent growing pains."
+excerpt: "Sprout-wrap has been a moving target lately, and has undergone some recent growing pains."
 comments: true
 ---
 
