@@ -6,6 +6,12 @@ kramdown:
   input: GFM
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 highlighter: pygments
+theme: soffes-blog-jekyll
+description: > # this means to ignore newlines until "full_name:"
+    This is my blog. Enjoy.
+full_name: James Hart
+short_name: James
+copyright_start_year: 2010
 gems:
   - jekyll-sitemap
   - jekyll-gist
