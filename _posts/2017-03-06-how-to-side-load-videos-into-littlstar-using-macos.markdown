@@ -14,7 +14,7 @@ Step 1: Open up Disk Utility. Under `Applications > Utilities > Disk Utilities`.
 
 Step 2: Grab your USB Stick, plug it in. I just bought [this USB stick][usb_stick] specifically for side loading. At $10 for 32 GB, it's a pretty hard deal to beat.
 
-Step 3: Let's start formatting the drive. Click on the drive you just plugged in on the left column, and click the "Erase Button".
+Step 3: Let's start formatting the drive. Click on the drive you just plugged in on the left column, and click the "Erase" button.
 
 <img src="/images/littlstar/erase_clicks.png" alt="Erase Clicks"/>
 
