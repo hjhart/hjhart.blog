@@ -7,3 +7,4 @@ gem 'rake'
 gem 'jekyll-sitemap'
 gem 'jekyll-gist'
 
+gem 'capistrano'
