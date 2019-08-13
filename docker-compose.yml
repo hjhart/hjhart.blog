@@ -1,0 +1,10 @@
+version: "3"
+services:
+  app:
+    build: .
+    command: bundle exec jekyll server --host 0.0.0.0
+    volumes:
+      - .:/site
+      - ~/.ssh/:/root/.ssh
+    ports:
+      - "4000:4000"
