@@ -8,3 +8,5 @@ gem 'jekyll-sitemap'
 gem 'jekyll-gist'
 
 gem 'capistrano'
+gem 'ed25519'
+gem 'bcrypt_pbkdf'
