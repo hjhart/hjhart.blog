@@ -1,2 +1,5 @@
 .rvmrc
 _site/
+.sass-cache/
+log/
+resumes/

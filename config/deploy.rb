@@ -8,7 +8,7 @@ set :repo_url, "git@github.com:hjhart/hjhart.github.com.git"
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
 
 # Default deploy_to directory is /var/www/my_app_name
-set :deploy_to, "/home/www/hjhart"
+set :deploy_to, "/home/www/hjhart_com"
 
 # Default value for :format is :airbrussh.
 # set :format, :airbrussh

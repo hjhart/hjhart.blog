@@ -1,1 +1,1 @@
-server 'hjhart.blog', user: "deploy", roles: %w{app web}
+server 'hjhart.com', user: "deploy", roles: %w{app web}

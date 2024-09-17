@@ -1,7 +1,7 @@
 ---
 title: "Things you can do when gogo in flight doesn't work"
 layout: post
-date: 11-14-2017
+date: 2017-11-14
 comments: true
 ---
 

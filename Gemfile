@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'soffes-blog-jekyll', github: 'hjhart/soffes-blog-jekyll', branch: 'master'
+gem 'soffes-blog-jekyll', git: 'https://github.com/hjhart/soffes-blog-jekyll'
 gem 'jekyll'
 gem 'rouge'
 gem 'rake'
