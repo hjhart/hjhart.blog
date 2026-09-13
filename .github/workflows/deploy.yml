@@ -19,15 +19,11 @@ jobs:
           chmod 600 ~/.ssh/id_ed25519
           ssh-keyscan hjhart.com >> ~/.ssh/known_hosts
 
-      - name: Generate resume HTML
+      - name: Generate resume HTML and PDF
         run: |
-          touch resumes/resume.html
+          touch resumes/resume.html resumes/resume.pdf
           docker compose -f resume/docker-compose.yml run --rm resume \
             ./node_modules/.bin/resume export --theme short resume.html
-
-      - name: Generate resume PDF
-        run: |
-          touch resumes/resume.pdf
           docker compose -f resume/docker-compose.yml run --rm resume \
             ./node_modules/.bin/resume export --theme short resume.pdf
 
