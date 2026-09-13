@@ -1,0 +1,31 @@
+name: Deploy
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up SSH
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.DEPLOY_SSH_KEY }}" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          ssh-keyscan hjhart.com >> ~/.ssh/known_hosts
+
+      - name: Generate resume HTML
+        run: |
+          touch resumes/resume.html
+          docker compose -f resume/docker-compose.yml run --rm resume \
+            ./node_modules/.bin/resume export --theme short resume.html
+
+      - name: Build Jekyll site
+        run: docker compose run --rm app bundle exec jekyll build
+
+      - name: Deploy to server
+        run: rsync -avz --delete _site/ deploy@hjhart.com:/home/www/hjhart_com/_site/
