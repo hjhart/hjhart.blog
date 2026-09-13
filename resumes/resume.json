@@ -6,7 +6,7 @@
     "email": "jobs@hjhart.com",
     "phone": "(425) 835-2366",
     "website": "https://hjhart.com",
-    "summary": "I’m looking for a remote position on a team where I can continue to grow as an engineering lead as well as help steer the engineering team and product. I consider myself a true full-stack engineer with deep experience in both back-end optimization and building rich front-end websites and apps. I have twenty years in total web experience, including fourteen years using Ruby on Rails. I have deployed and configured all pieces of back-end infrastructure needed to run a scalable server-side application, however I have a strong penchance for keeping it simple. I am a voracious learner and enjoy working with like-minded people.",
+    "summary": "I’m looking for a remote position on a team where I can continue to grow as an engineering lead as well as help steer the engineering team and product. I consider myself a true full-stack engineer with deep experience in both back-end optimization and building rich front-end websites and apps. I have twenty years in total web experience, including fourteen years using Ruby on Rails. I have deployed and configured all pieces of back-end infrastructure needed to run a scalable server-side application, however I have a strong penchance for keeping it simple. I have conducted 200+ technical interviews throughout my career and take an active role in building and scaling high-performing engineering teams. I am a voracious learner and enjoy working with like-minded people.",
     "profiles": [
       {
         "network": "GitHub",
@@ -37,7 +37,7 @@
       "address": "400 Concar Drive, San Mateo, CA 94402",
       "startDate": "2020-06-01",
       "endDate": "2025-01-03",
-      "summary": "Founding engineer at Brightline. Helped launch the initial member and staffer facing app, which allowed over 30k parents and children get mental health care. Helped devise engineering team hiring plan, and contributed heavily to growing the team from 5 to 35. Eventually pivoted over to supporting the launch of the iOS app, which has received over 10k downloads. Subsequently pivoted over to leading the launch of the android app. I built and maintained the CI/CD pipeline, including optimizing our total build time down from 75 minutes to 10 minutes. Technologies worked with were Rails, ViewComponent, TypeScript, Tailwind CSS."
+      "summary": "Founding engineer at Brightline. Helped launch the initial member and staffer facing app, which allowed over 30k parents and children get mental health care. Helped devise engineering team hiring plan, and grew the team from 5 to 35 engineers — personally interviewing dozens of candidates and shaping the technical bar and culture of the team. Eventually pivoted over to supporting the launch of the iOS app, which has received over 10k downloads. Subsequently pivoted over to leading the launch of the android app. I built and maintained the CI/CD pipeline, including optimizing our total build time down from 75 minutes to 10 minutes. Technologies worked with were Rails, ViewComponent, TypeScript, Tailwind CSS."
     },
     {
       "company": "Eggwich iPhone and Android App",
