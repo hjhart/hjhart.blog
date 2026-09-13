@@ -6,7 +6,7 @@
     "email": "jobs@hjhart.com",
     "phone": "(425) 835-2366",
     "website": "https://hjhart.com",
-    "summary": "I’m looking for a remote position on a team where I can continue to grow as an engineering lead as well as help steer the engineering team and product. I consider myself a true full-stack engineer with deep experience in both back-end optimization and building rich front-end websites and apps. I have twenty years in total web experience, including fourteen years using Ruby on Rails. I have deployed and configured all pieces of back-end infrastructure needed to run a scalable server-side application, however I have a strong penchance for keeping it simple. I have conducted 200+ technical interviews throughout my career and take an active role in building and scaling high-performing engineering teams. I am a voracious learner and enjoy working with like-minded people.",
+    "summary": "I’m looking for a remote position on a team where I can continue to grow as an engineering leader as well as help build more value for members. I consider myself a true full-stack engineer with deep experience in both back-end optimization and building rich front-end websites and apps. I have twenty years in total web experience, including fourteen years using Ruby on Rails. I have deployed and configured all pieces of back-end infrastructure needed to run a scalable server-side application, however I have a strong penchance for keeping it simple. I have conducted 200+ technical interviews throughout my career and take an active role in building and scaling high-performing engineering teams. I am a voracious learner and enjoy working with like-minded people.",
     "profiles": [
       {
         "network": "GitHub",
@@ -190,7 +190,7 @@
     {
       "name": "Tooling",
       "keywords": [
-        "Git, Vim, VSCode, XCode, Android Studio"
+        "Claude, Codex, Conductor, VSCode, XCode, Android Studio"
       ]
     }
   ]
