@@ -1,0 +1,21 @@
+---
+layout: default
+---
+<section class="posts">
+  {{ content }}
+	{% for post in site.posts %}
+	<article>
+  <header>
+    <h2><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h2>
+		{% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+    <p>Posted on <time datetime="{{ post.date | date: date_format }}">{{ post.date | date: date_format }}</time></p>
+  </header>
+  <p>{{ post.excerpt }} <a href="{{ post.url | relative_url }}" class="continue-reading">Continue reading &rarr;</a></p>
+</article>
+{% endfor %}
+</section>
+
+<!-- <% if @posts.count > 0 %> -->
+<!-- <%= erb :pagination, locals: { page: @page, total_pages: @total_pages, window: 2 } %> -->
+<!-- <% end %> -->
+

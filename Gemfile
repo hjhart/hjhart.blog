@@ -1,12 +1,13 @@
 source 'https://rubygems.org'
 
-gem 'soffes-blog-jekyll', git: 'https://github.com/hjhart/soffes-blog-jekyll'
-gem 'jekyll'
+gem 'jekyll', '~> 4.3'
+gem 'webrick'
 gem 'rouge'
 gem 'rake'
 gem 'jekyll-sitemap'
 gem 'jekyll-gist'
+gem 'jekyll-seo-tag'
 
-gem 'capistrano'
+gem 'capistrano', '~> 3.18'
 gem 'ed25519'
 gem 'bcrypt_pbkdf'
