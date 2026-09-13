@@ -1,5 +1,5 @@
 # config valid only for current version of Capistrano
-lock "3.9.0"
+lock "3.20.1"
 
 set :application, "hjhart.com"
 set :repo_url, "git@github.com:hjhart/hjhart.com.git"
