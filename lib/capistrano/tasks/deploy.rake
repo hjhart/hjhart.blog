@@ -1,6 +1,7 @@
 namespace :deploy do
   task :upload_site do
     run_locally do
+      execute 'cd resume && ./node_modules/.bin/resume export --theme short --resume ../resumes/resume.json ../resumes/resume.html'
       execute 'bundle exec jekyll build'
     end
     on roles(:all) do
