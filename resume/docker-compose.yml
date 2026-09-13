@@ -1,0 +1,11 @@
+version: "3"
+services:
+  resume:
+    environment:
+      PUPPETEER_SKIP_DOWNLOAD: true
+      NODE_ENV: development
+    build:
+      context: .
+    volumes:
+      - ../resumes/resume.json:/resume/resume.json
+      - ../resumes/resume.html:/resume/resume.html

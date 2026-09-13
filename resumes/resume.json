@@ -1,0 +1,192 @@
+{
+  "basics": {
+    "name": "James Hart",
+    "label": "Principal Software Engineer",
+    "picture": "",
+    "email": "jobs@hjhart.com",
+    "phone": "(425) 835-2366",
+    "website": "https://hjhart.com",
+    "summary": "I’m looking for a remote position on a team where I can continue to grow as an engineering lead as well as help steer the engineering team and product. I consider myself a true full-stack engineer with deep experience in both back-end optimization and building rich front-end clients. I have twenty years in total web experience, including thirteen years using Ruby on Rails. I have deployed and configured all pieces of back-end infrastructure needed to run a scalable server-side application, however I have a strong penchance for keeping it simple. I am a voracious learner and enjoy working with like-minded people.",
+    "location": {
+      "address": "1911 18th Ave. S.",
+      "postalCode": "WA 98144",
+      "city": "Seattle",
+      "countryCode": "US",
+      "region": "Washington"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "hjhart",
+        "url": "https://github.com/hjhart"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "hjameshart",
+        "url": "https://www.linkedin.com/in/hjameshart/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Brightline",
+      "position": "Principal Engineer",
+      "website": "https://hellobrightline.com",
+      "startDate": "2020-06-01",
+      "summary": "Founding engineer at Brightline. Helped launch the initial member and staffer facing app, which allowed over 30k parents and children get mental health care. Helped devise engineering team hiring plan, and contributed heavily to growing the team from 5 to 35. Eventually pivoted over to supporting the launch of the iOS app, which has received over 10k downloads. Subsequently pivoted over to leading the launch of the android app. I built and maintained the CI/CD pipeline, including optimizing our total build time down from 75 minutes to 10 minutes. Technologies worked with were Rails, ViewComponent, TypeScript, Tailwind CSS."
+    },
+    {
+      "company": "Eggwich iPhone and Android App",
+      "position": "Creator and Developer",
+      "website": "http://eggwichapp.com",
+      "startDate": "2024-01-01",
+      "summary": "The Eggwich app, deployed to both iOS and Android, highlights breakfast sandwiches and burritos in Seattle. Highlighted small restaurants run by Black, Latinx, Women, and LGBTQ individuals to help boost their business. I used rails, turbo-ios and turbo-android to rapidly deploy this side project to the app store. Built using rails, rspec, and the hotwire suite."
+    },
+    {
+      "company": "Voom Flights, an Airbus Company",
+      "position": "Principal Engineer",
+      "website": "https://voom.flights",
+      "startDate": "2018-07-20",
+      "endDate": "2020-05-30",
+      "summary": "At Voom, I worked closely with the engineers and designers on the product team and also acted as the liason to the leadership team. I mentored engineers through pairing and helped facilitate making hard technical decisions when the team needed guidance. Often, my job was unblocking bottlenecks for the team. I took an active interest in optimizing the CI / CD process to enable us to ship code faster. I helped drive the growth of the team from 4 engineers to 14. Our team built a rails / react web app as well as a react-native app."
+    },
+    {
+      "company": "Wanelo",
+      "position": "Director of Engineering",
+      "website": "https://wanelo.co",
+      "startDate": "2013-07-22",
+      "endDate": "2018-04-05",
+      "summary": "At Wanelo, I led the engineering team for numerous years in both application development and platform operations. Under the direction of the CEO and the product team, I advised product owners how we should build our numerous products. I led the team that built and maintained our marketplace for selling products through Shopify. During our growth period, I helped build scalable solutions to handle user growth by sharding postgresql for our user saves. When our user base was declining, I helped advise the company to downgrade our servers and other third-party services to go from $115k to $60k in monthly operating costs."
+    },
+    {
+      "company": "RPX",
+      "position": "Senior Software Engineer",
+      "website": "https://rpxcorp.com",
+      "startDate": "2010-10-01",
+      "endDate": "2013-07-01",
+      "summary": "Became the lead engineer on our client-facing ruby on rails application. Worked at Pivotal Labs for six months working using Ruby on Rails and learning agile methods and TDD. Lead the front-end development of a single-page backbone application. Built a gem to integrate multiple of our ruby applications onto the same database. Worked on several \"hackathon\" projects to help improve the workflow of other teams within the company. Built an API to interface between postgres stored procedures and a rails application."
+    },
+    {
+      "company": "Lean Startup Productions",
+      "position": "Freelance Software Engineer",
+      "website": "https://leanstartup.co/",
+      "startDate": "2013-08-01",
+      "endDate": "2014-12-01",
+      "summary": "Worked closely with clients to enhance Eric Ries' Conference’s website for two years. Test drove new conference software that matched attendees to their preferred mentors test-driven in pure ruby. Helped operate said software for two conferences (Lean Startup Conference 2014, QuickBooks Connect 2014). Built and maintained entrepeneurial editorial site called \"The How.\""
+    },
+    {
+      "company": "Tara Mohr",
+      "position": "Freelance Software Engineer",
+      "website": "https://www.taramohr.com/",
+      "startDate": "2013-10-01",
+      "endDate": "2014-05-01",
+      "summary": "Built and maintained members’ only wordpress website. Coordinated with third-party software developers to improve their wordpress plugin (WooCommerce)."
+    },
+    {
+      "company": "EggWich iPhone App",
+      "position": "Creator and Developer",
+      "website": "http://eggwichapp.com",
+      "startDate": "2010-10-01",
+      "endDate": "2013-07-01",
+      "summary": "EggWich is an iPhone application highlighting reviews and photos of egg sandwiches and breakfast burritos in San Francisco. The app was test-driven using Jasmine. I used the Enyo.js framework (previously Palm WebOS) to generate views and handle all user events. Runs on iOS using Phonegap."
+    },
+    {
+      "company": "WebKey LLC",
+      "position": "Web Developer",
+      "website": "http://www.webkeylive.com/",
+      "startDate": "2008-05-01",
+      "endDate": "2010-09-01",
+      "summary": "The owner and I worked closely with one another to deliver our clients with web design and development. I developed secure and usable web forms with PHP, HTML, CSS and JavaScript. Experience with customer service by providing clients help for their questions, performing user interviews, and recommending solutions for any bugs or errors they might have found. Clients include: Fremont Brewing Company, Washington Green Roads, Richard Conlin (Seattle City Council), Washington Green Schools, and many more."
+    },
+    {
+      "company": "hjhart.com",
+      "position": "Freelance Web Design and Development",
+      "website": "http://hjhart.com",
+      "startDate": "2004-08-01",
+      "endDate": "2010-09-01",
+      "summary": "Started doing contract work in high school and throughout college as a outlet to learn more about software development and get early professional experience. Development occurs on a PHP/MySQL platform, with the use of standards-compliant HTML and CSS with JavaScript. Designing was always done in-house using Photoshop. With these projects, building my skill set is very important as is communicating with the client exactly what they require. Clients include: Damon Barnett, Night Owl Lounge, Carso's Pasta, Saga Beverages, WoofSites, PitchSmarter, Bainbridge Island Yacht Club, and more."
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Beacon Hill International School PTA",
+      "position": "Web Developer",
+      "website": "https://www.beaconhillpta.org/",
+      "startDate": "2023-09-01",
+      "summary": "Volunteered my time to make the website more accessible and easier to publish content."
+    },
+    {
+      "organization": "Basset Hound Rescue of Southern California",
+      "position": "Web Developer",
+      "website": "https://www.bassethoundrescue.org/",
+      "startDate": "2014-01-01",
+      "endDate": "2015-06-01",
+      "summary": "Basset Hound Rescue of Southern California is a 501(c)3 non-profit organization offering sanctuary, healing and forever families to distressed, abandoned, injured or homeless hounds. I helped re-design and build their wordpress website to increase adoption rate and to help event promotion."
+    },
+    {
+      "organization": "Golden Gate Ruby Conference",
+      "position": "Web Developer",
+      "website": "http://gogaruco.com",
+      "startDate": "2013-05-01",
+      "endDate": "2013-09-01",
+      "summary": "GoGaRuCo was a great single-track conference in San Francisco that ran for six years. I approached the co-host of the conference to help build the website.  I used the middleman gem to produce static HTML, CSS3 and JavaScript hosted on github pages. We used the Foundation framework and its css and javascript to build a responsive website across browsers and devices."
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Washington",
+      "area": "Mathematics",
+      "studyType": "Bachelor of Science",
+      "startDate": "2005-09-01",
+      "endDate": "2010-06-01"
+    },
+    {
+      "institution": "University of Washington",
+      "area": "Informatics",
+      "studyType": "Bachelor of Science",
+      "startDate": "2005-09-01",
+      "endDate": "2010-06-01"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Examining the Relationship Between Pediatric Behavioral Health and Parent Productivity Through a Parent-Reported Survey in the Time of COVID-19: Exploratory Study ",
+      "publisher": "JMIR Publications",
+      "releaseDate": "2022-08-18",
+      "url": "https://formative.jmir.org/2022/8/e37285",
+      "summary": "I built the COBI app that was used to collect data, which was then synthesized to create this publication."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Ruby",
+      "keywords": [
+        "Rails, Sidekiq, RSpec, Capybara"
+      ]
+    },
+    {
+      "name": "Operations",
+      "keywords": [
+        "Docker, Aptible, Github Actions, Bash, Heroku, Circle CI"
+      ]
+    },
+    {
+      "name": "Data Stores",
+      "keywords": [
+        "PostgreSQL, Redis, Solr, Memcached, ElasticSearch"
+      ]
+    },
+    {
+      "name": "Front-End",
+      "keywords": [
+        "Stimulus, Turbo, TailwindCSS, SwiftUI, Kotlin, ViewComponent, React, React Native"
+      ]
+    },
+    {
+      "name": "Tooling",
+      "keywords": [
+        "Git, Vim, VSCode, XCode, Android Studio"
+      ]
+    }
+  ]
+}

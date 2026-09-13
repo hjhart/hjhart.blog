@@ -1,8 +1,8 @@
 # config valid only for current version of Capistrano
 lock "3.9.0"
 
-set :application, "hjhart.blog"
-set :repo_url, "git@github.com:hjhart/hjhart.github.com.git"
+set :application, "hjhart.com"
+set :repo_url, "git@github.com:hjhart/hjhart.com.git"
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
