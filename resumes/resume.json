@@ -50,6 +50,7 @@
       "company": "Voom Flights, an Airbus Company",
       "position": "Principal Engineer",
       "website": "https://voom.flights",
+      "address": "601 West California Avenue, San Francisco, CA 94086",
       "startDate": "2018-07-20",
       "endDate": "2020-05-30",
       "summary": "At Voom, I worked closely with the engineers and designers on the product team and also acted as the liason to the leadership team. I mentored engineers through pairing and helped facilitate making hard technical decisions when the team needed guidance. Often, my job was unblocking bottlenecks for the team. I took an active interest in optimizing the CI / CD process to enable us to ship code faster. I helped drive the growth of the team from 4 engineers to 14. Our team built a rails / react web app as well as a react-native app."
