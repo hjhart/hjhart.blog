@@ -4,7 +4,7 @@
   "description": "## How to publish your resume!",
   "main": "index.js",
   "dependencies": {
-    "resume-cli": "^3.0.8"
+    "resume-cli": "^3.7.3"
   },
   "devDependencies": {
     "jsonresume-theme-short": "^0.1.7"
