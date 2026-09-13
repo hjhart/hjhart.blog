@@ -6,14 +6,7 @@
     "email": "jobs@hjhart.com",
     "phone": "(425) 835-2366",
     "website": "https://hjhart.com",
-    "summary": "I’m looking for a remote position on a team where I can continue to grow as an engineering lead as well as help steer the engineering team and product. I consider myself a true full-stack engineer with deep experience in both back-end optimization and building rich front-end clients. I have twenty years in total web experience, including thirteen years using Ruby on Rails. I have deployed and configured all pieces of back-end infrastructure needed to run a scalable server-side application, however I have a strong penchance for keeping it simple. I am a voracious learner and enjoy working with like-minded people.",
-    "location": {
-      "address": "1911 18th Ave. S.",
-      "postalCode": "WA 98144",
-      "city": "Seattle",
-      "countryCode": "US",
-      "region": "Washington"
-    },
+    "summary": "I’m looking for a remote position on a team where I can continue to grow as an engineering lead as well as help steer the engineering team and product. I consider myself a true full-stack engineer with deep experience in both back-end optimization and building rich front-end websites and apps. I have twenty years in total web experience, including fourteen years using Ruby on Rails. I have deployed and configured all pieces of back-end infrastructure needed to run a scalable server-side application, however I have a strong penchance for keeping it simple. I am a voracious learner and enjoy working with like-minded people.",
     "profiles": [
       {
         "network": "GitHub",
@@ -29,10 +22,21 @@
   },
   "work": [
     {
-      "company": "Brightline",
+      "company": "Clarity Pediatrics",
+      "position": "Principal Engineer",
+      "website": "https://claritypediatrics.com",
+      "address": "177 Post St, San Francisco, CA",
+      "phone": "(415) 868-4141",
+      "startDate": "2025-01-06",
+      "summary": "Supported our iOS engineer launch the app by building APIs. Re-built the members main web-app using NextJS and React atop of same APIs. Re-architected testing infrastructure. Reduced number of tickets per day for Operations by building more self-scheduling flows for our members."
+    },
+    {
+      "company": "Brightline Health",
       "position": "Principal Engineer",
       "website": "https://hellobrightline.com",
+      "address": "400 Concar Drive, San Mateo, CA 94402",
       "startDate": "2020-06-01",
+      "endDate": "2025-01-03",
       "summary": "Founding engineer at Brightline. Helped launch the initial member and staffer facing app, which allowed over 30k parents and children get mental health care. Helped devise engineering team hiring plan, and contributed heavily to growing the team from 5 to 35. Eventually pivoted over to supporting the launch of the iOS app, which has received over 10k downloads. Subsequently pivoted over to leading the launch of the android app. I built and maintained the CI/CD pipeline, including optimizing our total build time down from 75 minutes to 10 minutes. Technologies worked with were Rails, ViewComponent, TypeScript, Tailwind CSS."
     },
     {
@@ -159,6 +163,12 @@
   ],
   "skills": [
     {
+      "name": "Front-End",
+      "keywords": [
+        "JS/TS, NextJS, React, Turbo, TailwindCSS, SwiftUI, Kotlin, ViewComponent, React Native"
+      ]
+    },
+    {
       "name": "Ruby",
       "keywords": [
         "Rails, Sidekiq, RSpec, Capybara"
@@ -167,19 +177,13 @@
     {
       "name": "Operations",
       "keywords": [
-        "Docker, Aptible, Github Actions, Bash, Heroku, Circle CI"
+        "Docker, Aptible, Github Actions, Bash, Heroku"
       ]
     },
     {
       "name": "Data Stores",
       "keywords": [
         "PostgreSQL, Redis, Solr, Memcached, ElasticSearch"
-      ]
-    },
-    {
-      "name": "Front-End",
-      "keywords": [
-        "Stimulus, Turbo, TailwindCSS, SwiftUI, Kotlin, ViewComponent, React, React Native"
       ]
     },
     {
