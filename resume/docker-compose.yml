@@ -9,3 +9,4 @@ services:
     volumes:
       - ../resumes/resume.json:/resume/resume.json
       - ../resumes/resume.html:/resume/resume.html
+      - ../resumes/resume.pdf:/resume/resume.pdf

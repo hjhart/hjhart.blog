@@ -25,6 +25,12 @@ jobs:
           docker compose -f resume/docker-compose.yml run --rm resume \
             ./node_modules/.bin/resume export --theme short resume.html
 
+      - name: Generate resume PDF
+        run: |
+          touch resumes/resume.pdf
+          docker compose -f resume/docker-compose.yml run --rm resume \
+            ./node_modules/.bin/resume export --theme short resume.pdf
+
       - name: Build Jekyll site
         run: docker compose run --rm app bundle exec jekyll build
 
